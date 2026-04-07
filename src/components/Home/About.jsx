@@ -48,6 +48,17 @@ const About = () => {
                             </p>
                         </div>
 
+                        <div className="mt-6 flex items-center gap-3">
+                            {/* Avatars */}
+                            <div className="flex -space-x-2">
+                                <img className="w-8 h-8 rounded-full border-2 border-white" src="https://i.pravatar.cc/40?img=1" />
+                                <img className="w-8 h-8 rounded-full border-2 border-white" src="https://i.pravatar.cc/40?img=2" />
+                                <img className="w-8 h-8 rounded-full border-2 border-white" src="https://i.pravatar.cc/40?img=3" />
+                                <img className="w-8 h-8 rounded-full border-2 border-white" src="https://i.pravatar.cc/40?img=4" />
+                            </div>
+                            <p className="text-sm text-gray-600">1200+ happy users review</p>
+                        </div>
+
                     </div>
 
                 </div>
