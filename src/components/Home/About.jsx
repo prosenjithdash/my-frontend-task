@@ -33,6 +33,7 @@ const About = () => {
             <div className="bg-[#f3f3f3] py-10 px-4">
 
                 <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
+
                     {/* Left part */}
                     <div className="bg-white rounded-3xl p-6 flex flex-col justify-between shadow-sm">
                         <div>
@@ -58,6 +59,16 @@ const About = () => {
                             </div>
                             <p className="text-sm text-gray-600">1200+ happy users review</p>
                         </div>
+
+                    </div>
+
+                    {/* Center part */}
+                    <div className="relative rounded-3xl overflow-hidden bg-black text-white flex items-end min-h-[400px] lg:col-span-1">
+                        <img
+                            src="https://images.unsplash.com/photo-1607746882042-944635dfe10e"
+                            alt="model"
+                            className="absolute inset-0 w-full h-full object-cover opacity-80"
+                        />
 
                     </div>
 
