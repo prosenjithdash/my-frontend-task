@@ -81,6 +81,27 @@ const About = () => {
 
                     </div>
 
+                    {/* Right part */}
+                    <div className="flex flex-col gap-6">
+                        {/* FOLLOW CARD */}
+                        <div className="bg-white rounded-3xl p-6 shadow-sm">
+                            <p className="text-xs text-gray-400">Follow us</p>
+                            <h3 className="text-lg font-semibold mb-4">For check updates</h3>
+
+                            <div className="flex flex-wrap gap-2">
+                                {["DRIBBBLE", "BEHANCE", "LINKEDIN", "X", "XING"].map((item) => (
+                                    <button
+                                        key={item}
+                                        className="px-3 py-1 text-xs border border-gray-300 rounded-full hover:bg-black hover:text-white transition"
+                                    >
+                                        {item}
+                                    </button>
+                                ))}
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
 
 
