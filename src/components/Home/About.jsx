@@ -3,6 +3,8 @@ import React from 'react';
 const About = () => {
     return (
         <div className="px-4 py-10">
+
+            {/* Logo and Des part */}
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between gap-10">
 
                 {/* Left side */}
@@ -25,6 +27,35 @@ const About = () => {
                 </div>
 
             </div>
+
+            {/* More about part */}
+
+            <div className="bg-[#f3f3f3] py-10 px-4">
+
+                <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    {/* Left part */}
+                    <div className="bg-white rounded-3xl p-6 flex flex-col justify-between shadow-sm">
+                        <div>
+                            <h1 className="text-5xl font-bold text-black">
+                                25<span className="text-gray-300">+</span>
+                            </h1>
+                            <p className="text-sm text-gray-500 mt-1">Years of experience</p>
+
+                            <hr className="my-5 border-gray-200" />
+
+                            <p className="text-gray-600 text-sm leading-relaxed">
+                                Explore how we transform ideas into extraordinary digital experiences.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
         </div>
     );
 };
