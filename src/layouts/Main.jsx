@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 const Main = () => {
     return (
-        <div>
+        <div className="bg-gray-100">
             {/* Navbar part */}
             <div className="min-h-[calc(100vh-68px)] ">
                 <Outlet />
