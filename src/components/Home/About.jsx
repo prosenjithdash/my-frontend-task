@@ -100,13 +100,43 @@ const About = () => {
                             </div>
                         </div>
 
+                        {/* PROGRESS CARD */}
+                        <div className="bg-white rounded-3xl p-6 shadow-sm">
+                            <p className="text-xs text-gray-400 mb-4">Impressions</p>
+
+                            {/* Bar */}
+                            <div className="space-y-4">
+                                <div>
+                                    <div className="flex justify-between text-sm mb-1">
+                                        <span>Solutions</span>
+                                        <span>100%</span>
+                                    </div>
+                                    <div className="h-2 bg-gray-200 rounded-full" />
+                                </div>
+
+                                <div>
+                                    <div className="flex justify-between text-sm mb-1">
+                                        <span>UI/UX</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div className="h-2 bg-black rounded-full w-[90%]" />
+                                </div>
+
+                                <div>
+                                    <div className="flex justify-between text-sm mb-1">
+                                        <span>Explore</span>
+                                        <span>72%</span>
+                                    </div>
+                                    <div className="h-2 bg-gray-300 rounded-full w-[72%]" />
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
 
-
             </div>
-
 
         </div>
     );
