@@ -1,19 +1,5 @@
 const Portfolio = () => {
-    const items = [
-        {
-            id: 1,
-            title: "Aldan Branding",
-            tag: "BRANDING, UX",
-            img: "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
-        },
-        {
-            id: 2,
-            title: "Modern Portrait",
-            tag: "2025",
-            img: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
-        },
-    ];
-
+   
     return (
         <div className="bg-[#f5f5f5] py-16">
 
