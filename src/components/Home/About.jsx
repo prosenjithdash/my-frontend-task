@@ -70,6 +70,15 @@ const About = () => {
                             className="absolute inset-0 w-full h-full object-cover opacity-80"
                         />
 
+                        <div className="relative p-6 z-10">
+                            <p className="text-lg leading-relaxed">
+                                “ At Floka, we merge strategy, creativity, and technology to shape brands that people love. ”
+                            </p>
+                            <p className="text-sm text-gray-300 mt-3">
+                                Merizo H. Yelso / CEO
+                            </p>
+                        </div>
+
                     </div>
 
                 </div>
