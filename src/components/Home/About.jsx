@@ -1,4 +1,4 @@
-import React from 'react';
+// ABOUT.JSX FILE
 
 const About = () => {
     return (
