@@ -7,7 +7,7 @@ const Main = () => {
         <div className="bg-gray-100">
             {/* Navbar part */}
             <Navbar/>
-            <div className="min-h-[calc(100vh-68px)] ">
+            <div className="min-h-[calc(100vh-68px)]">
                 <Outlet />
             </div>
             {/* Footer part */}

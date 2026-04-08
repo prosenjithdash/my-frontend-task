@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="w-full bg-black text-white">
+        <footer className="max-w-7xl rounded-2xl mx-auto bg-black text-white mb-10">
 
             {/* Container (centered content) */}
             <div className="max-w-8xl mx-auto px-4 sm:px-6 md:px-10 py-16 md:py-24">

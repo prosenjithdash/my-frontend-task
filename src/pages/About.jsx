@@ -63,7 +63,7 @@ const About = () => {
                     </div>
 
                     {/* Center part */}
-                    <div className="relative rounded-3xl overflow-hidden bg-black text-white flex items-end min-h-[400px] lg:col-span-1">
+                    <div className=" relative rounded-3xl overflow-hidden bg-black text-white flex items-end min-h-[400px] lg:col-span-1">
                         <img
                             src="https://images.unsplash.com/photo-1607746882042-944635dfe10e"
                             alt="model"
